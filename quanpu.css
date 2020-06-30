@@ -1,0 +1,245 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  /* font-family: "huninn"; */
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* @font-face {
+ font-family: 'huninn';
+    src: url('css./font/huninn.woff') format("woff"),
+         url('css./font/huninn.ttf') format("truetype"),
+  }  */
+h2 {
+  margin: 10px 0;
+  text-align: left;
+  line-height: 35px;
+}
+
+.fontBigger {
+  font-size: 60px;
+  font-style: italic;
+}
+
+header {
+  width: 200px;
+  height: 969px;
+  background-color: #EF9D92;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+}
+
+header nav {
+  width: 110px;
+  height: 41px;
+  background-color: goldenrod;
+}
+
+header #logo {
+  width: 200px;
+  height: 200px;
+  /* background-color: green ; */
+}
+
+header #copyright p {
+  font-size: 14px;
+  margin: 10px 0;
+  text-align: center;
+}
+
+main {
+  width: 100%;
+  padding: 0 0 0 200px;
+}
+
+main #banner {
+  width: 100%;
+}
+
+main #banner .container {
+  width: 1500px;
+  height: 969px;
+  margin: auto;
+}
+
+main #banner .cardboxUp {
+  height: 50%;
+  width: 100%;
+  /* background-color: bisque; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  color: #AEDDA6;
+  font-family: 'huninn';
+}
+
+main #banner .cardboxUp .cardboxUpRight {
+  width: 70%;
+  margin: auto;
+  /* background-color: crimson; */
+}
+
+main #banner .cardboxUp .cardboxUpLeft {
+  width: 30%;
+  /* background-color: bisque; */
+  position: relative;
+}
+
+main #banner .cardboxUp .cardboxUpLeft #first {
+  position: absolute;
+  /* top: 110px; */
+  top: 15%;
+}
+
+main #banner .cardboxUp .cardboxUpLeft #second {
+  position: absolute;
+  /* top: 212px; */
+  bottom: 20%;
+  right: 5%;
+}
+
+main #banner .cardboxDown {
+  height: 50%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  color: #EF9D92;
+}
+
+main #banner .cardboxDown .cardboxDownRight {
+  width: 40%;
+  /* background-color:bisque; */
+  position: relative;
+}
+
+main #banner .cardboxDown .cardboxDownRight #first {
+  position: absolute;
+  top: 10%;
+  left: 20%;
+}
+
+main #banner .cardboxDown .cardboxDownRight #second {
+  position: absolute;
+  top: 30%;
+  right: 20%;
+}
+
+main #banner .cardboxDown .cardboxDownRight #third {
+  position: absolute;
+  bottom: 15%;
+  right: 10%;
+}
+
+main #banner .cardboxDown .cardboxDownLeft {
+  width: 60%;
+  height: 100%;
+  margin: auto;
+}
+
+main .swiper-container {
+  width: 80%;
+  height: 100%;
+  padding: 0  100px;
+}
+
+#news {
+  width: 100%;
+  height: 1000PX;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  position: relative;
+}
+
+#news .newscardGroup {
+  width: 70%;
+  height: 50%;
+  /* background-color: crimson; */
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#news .newscardGroup .newscard {
+  width: 40%;
+  /* background-color: darkkhaki; */
+  margin: 0 40px;
+  position: relative;
+  z-index: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+}
+
+#news .newscardGroup .newscard .newscardUp {
+  height: 50%;
+}
+
+#news .newscardGroup .newscard #prior {
+  position: absolute;
+  z-index: 2;
+}
+
+#news .newscardGroup .newscard #tag {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 50px 0 0 0;
+}
+
+#news .newscardGroup .newscard .shadow {
+  width: 320px;
+  height: 200px;
+  background-color: grey;
+  position: absolute;
+  bottom: 45%;
+  left: -10%;
+  opacity: 0.7;
+  z-index: 1;
+}
+/*# sourceMappingURL=quanpu.css.map */
