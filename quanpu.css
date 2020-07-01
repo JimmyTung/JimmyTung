@@ -12,11 +12,6 @@ body {
   /* font-family: "huninn"; */
 }
 
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
 /* @font-face {
  font-family: 'huninn';
     src: url('css./font/huninn.woff') format("woff"),
@@ -28,9 +23,22 @@ h2 {
   line-height: 35px;
 }
 
+h3 {
+  line-height: 35px;
+}
+
 .fontBigger {
   font-size: 60px;
   font-style: italic;
+}
+
+.readmoreFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 header {
@@ -112,6 +120,10 @@ main #banner .cardboxUp .cardboxUpLeft {
   position: relative;
 }
 
+main #banner .cardboxUp .cardboxUpLeft h1 {
+  font-size: 32px;
+}
+
 main #banner .cardboxUp .cardboxUpLeft #first {
   position: absolute;
   /* top: 110px; */
@@ -144,6 +156,10 @@ main #banner .cardboxDown .cardboxDownRight {
   position: relative;
 }
 
+main #banner .cardboxDown .cardboxDownRight h1 {
+  font-size: 32px;
+}
+
 main #banner .cardboxDown .cardboxDownRight #first {
   position: absolute;
   top: 10%;
@@ -168,10 +184,37 @@ main #banner .cardboxDown .cardboxDownLeft {
   margin: auto;
 }
 
-main .swiper-container {
-  width: 80%;
-  height: 100%;
-  padding: 0  100px;
+main #newsSwiper .yellowBg {
+  margin: 0 0 -483px 0;
+}
+
+main #newsSwiper .yellowBg #speaker {
+  position: relative;
+}
+
+main #newsSwiper .yellowBg #newsLogo {
+  position: relative;
+  top: -300px;
+  right: -3%;
+}
+
+main #newsSwiper .swiper-container {
+  width: 70%;
+  padding: 0  0px;
+  position: relative;
+}
+
+main #newsSwiper .swiper-container .swiper-slide #tag {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main #newsSwiper .greenBg #doll-1 {
+  position: absolute;
 }
 
 #news {

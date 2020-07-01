@@ -10,9 +10,6 @@ body{
     
 }
 
-*{
-    box-sizing: border-box;
-}
 /* @font-face {
  font-family: 'huninn';
     src: url('css./font/huninn.woff') format("woff"),
@@ -22,10 +19,18 @@ h2{
     margin: 10px 0 ;
     text-align: left;
     line-height: 35px;
+    
+}
+h3{
+    line-height: 35px;
 }
 .fontBigger{
     font-size: 60px;
     font-style: italic;
+}
+.readmoreFlex{
+    display: flex;
+    justify-content: flex-end;
 }
 header{
     width: 200px;
@@ -86,6 +91,9 @@ main{
                 width: 30%;
                 /* background-color: bisque; */
                 position: relative;
+                h1{
+                    font-size: 32px;
+                }
                 #first{
                     position: absolute;
                     /* top: 110px; */
@@ -106,6 +114,9 @@ main{
             flex-direction: row-reverse;
             color:#EF9D92;
             .cardboxDownRight{
+                h1{
+                    font-size: 32px;
+                }
                 width: 40%;
                 /* background-color:bisque; */
                 position: relative;
@@ -137,11 +148,47 @@ main{
         }
 
     }
-    .swiper-container {
-    width: 80%;
-    height: 100%;
-    padding: 0  100px;
-  }
+    #newsSwiper{
+        .yellowBg{
+            margin: 0 0 -483px 0 ;
+            // position: relative;
+            #speaker{
+                position: relative;
+                
+
+            }
+            #newsLogo{
+                position: relative;
+                top: -300px;
+                right: -3%;
+            }
+
+        }
+        .swiper-container {
+            width: 70%;
+            padding: 0  0px;
+            position: relative;
+            
+            .swiper-slide{
+                #tag{
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+            .swiper-pagination{
+                // bottom: -11px;
+                // position: absolute;
+            }
+        }
+        .greenBg{
+            #doll-1{
+                position: absolute;
+                
+            }
+
+        }
+    }
+    
 }
 
 
