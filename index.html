@@ -44,7 +44,7 @@
                         <h1 id="third"> 讓每個人成為更好的自己</h1>
                     </div>
                     <div class="cardboxDownLeft">
-                        <img height="90%"   width="900px" src="img/banner 2.jpg" alt="">
+                        <img height="90%" width="80%" src="img/banner 2.jpg" alt="">
                     </div> 
                 </div>
             </div>
@@ -214,7 +214,7 @@
                             </div>
                             <div class="newscardDown">
                                 <div id="tag">
-                                    <h2>2020.06.05 </h2>   
+                                    <h2>2020.06.011 </h2>   
                                     <h2>aaa</h2>  
                                 </div>
                             <h2>小事專欄-怎麼交朋友</h2>
@@ -226,16 +226,44 @@
                         </div>
                     </div> 
                 </div>
-                <!-- Add Pagination -->
-                <div class="swiper-pagination"></div>
-                <!-- Add Arrows -->
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
             </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
             <div class="greenBg">
-                <img wi id="doll-1" src="img/doll-1.png" alt="">
+                <img width="12%" id="doll-1" src="img/doll-1.png" alt="">
                 <img width= "100%" src="img/green.png" alt="">
             </div>
+        </section>
+        <section id="teamOffice">
+            <div id="teamcardUp">
+                <img id="groupPhoto" width="50%" src="img/groupPhoto.png" alt="團體照片" title="團體照片">
+                <img id="teamLogo" src="img/teamLogo.png" alt="">
+                <img id="president" src="img/president.png" alt="">
+                <div id="presidentText">
+                    <h2 id="first">校長</h2>  
+                    <h2 id="second">陳思町</h2>
+                    <p id="third">關心孩子而不是解決問題 </p> 
+                </div>
+            </div>
+            
+            <img  id="speaker" src="img/speaker.png" alt="">
+            
+            <div id="teamcardDown">
+                <img width="100%" src="img/greenBig.png" alt="">
+                <img id="studentAffairs" width="37%"  src="/img/studentAffairs.png" alt="">
+                <img id="studentAffairsLogo" src="img/studentAffairsLogo.png" alt="">
+                <img id="generalAffairs" width="30%"  src="/img/generalAffairs.png" alt="">
+                <img id="generalAffairsLogo" src="img/generalAffairsLogo.png" alt="">
+                <img id="academicAffairs" width="35%"  src="/img/academicAffairs.png" alt="">
+                <img id="academicAffairsLogo" src="img/academicAffairsLogo.png" alt="">
+                
+            </div>
+            
+            
+
         </section>
         <!-- <section id="news">
             <img width="100%" src="img/yellow.png" alt=""></div>
@@ -286,7 +314,63 @@
             </div>
             <img width="100%" src="img/green.png" alt=""></div>
         </section> -->
-        <section></section>
+        <section id="teamTeachers">
+            <div class="teamCards">
+                 <!-- Swiper -->
+                <div class="teamTeachersLogo">
+                    <img width="100%" src="img/firstGrade.png" alt="">
+                </div>
+                <div class="swiper-container_2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img class="teacherChange" width="70%" src="img/二年級導師.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="teacherChange" width="70%" src="img/二年級導師.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="teacherChange" width="70%" src="img/二年級導師.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">Slide 6</div>
+                        <div class="swiper-slide">Slide 7</div>
+                        <div class="swiper-slide">Slide 8</div>
+                        <div class="swiper-slide">Slide 9</div>
+                        <div class="swiper-slide">Slide 10</div>
+                    </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination_2"></div>
+                </div>
+            </div>
+            <div class="teamCards middle">
+                <div class="swiper-container_2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img class="teacherChange" width="75%" src="img/二年級導師.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="teacherChange" width="75%" src="img/二年級導師.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="teacherChange" width="75% src="img/二年級導師.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">Slide 6</div>
+                        <div class="swiper-slide">Slide 7</div>
+                        <div class="swiper-slide">Slide 8</div>
+                        <div class="swiper-slide">Slide 9</div>
+                        <div class="swiper-slide">Slide 10</div>
+                    </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination_2"></div>
+                </div>
+            </div>
+            <div class="teamCards"></div>
+
+        </section>
+        <section>
+            <div class="box">
+                <div class="boxa"></div>
+            </div>
+        </section>
         
 
     </main>
@@ -314,5 +398,22 @@
           },
         });
       </script>
+      <!-- Swiper JS -->
+    <script src="../package/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper_2 = new Swiper('.swiper-container_2', {
+            direction: 'vertical',
+            slidesPerView: 1,
+            spaceBetween: 20,
+            mousewheel: true,
+            pagination: {
+                el: '.swiper-pagination_2',
+                clickable: true,
+            },
+            loop:true,
+        });
+    </script>
 </body>
 </html>

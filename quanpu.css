@@ -21,6 +21,7 @@ h2 {
   margin: 10px 0;
   text-align: left;
   line-height: 35px;
+  width: 80%;
 }
 
 h3 {
@@ -88,7 +89,7 @@ main #banner {
 }
 
 main #banner .container {
-  width: 1500px;
+  width: 90%;
   height: 969px;
   margin: auto;
 }
@@ -184,6 +185,10 @@ main #banner .cardboxDown .cardboxDownLeft {
   margin: auto;
 }
 
+main #newsSwiper {
+  position: relative;
+}
+
 main #newsSwiper .yellowBg {
   margin: 0 0 -483px 0;
 }
@@ -213,76 +218,194 @@ main #newsSwiper .swiper-container .swiper-slide #tag {
           justify-content: space-between;
 }
 
+main #newsSwiper .swiper-pagination {
+  left: 50%;
+  top: 65%;
+}
+
+main #newsSwiper .swiper-button-next {
+  right: 170px;
+  top: 40%;
+}
+
+main #newsSwiper .swiper-button-prev {
+  left: 170px;
+  top: 40%;
+}
+
+main #newsSwiper .greenBg {
+  z-index: 1;
+}
+
 main #newsSwiper .greenBg #doll-1 {
   position: absolute;
 }
 
-#news {
+main #teamOffice {
+  margin: -200px 0 0 0;
+  position: relative;
+  z-index: 10;
+}
+
+main #teamOffice #groupPhoto {
+  margin: 20px 0 0 200px;
+}
+
+main #teamOffice #teamLogo {
+  position: relative;
+  top: -270px;
+}
+
+main #teamOffice #president {
+  margin: 0px 0 0 50px;
+  position: relative;
+  top: -35px;
+}
+
+main #teamOffice #presidentText {
+  position: absolute;
+  right: 3%;
+}
+
+main #teamOffice #presidentText #first {
+  font-size: 60px;
+  position: relative;
+  right: 150px;
+  top: 20px;
+}
+
+main #teamOffice #presidentText #second {
+  font-size: 48px;
+  position: relative;
+  top: 25px;
+  right: -80px;
+}
+
+main #teamOffice #presidentText #third {
+  position: relative;
+  font-size: 36px;
+  top: 50px;
+  right: 100px;
+  color: #82A6E8;
+}
+
+main #teamOffice #speaker {
+  position: relative;
+  left: 37%;
+  top: 70px;
+}
+
+main #teamOffice #teamcardDown {
+  margin: -300px 0 0 0;
+}
+
+main #teamOffice #teamcardDown #studentAffairs {
+  position: absolute;
+  top: 800px;
+  left: 10px;
+}
+
+main #teamOffice #teamcardDown #studentAffairsLogo {
+  position: absolute;
+  top: 980px;
+  left: 670px;
+}
+
+main #teamOffice #teamcardDown #generalAffairs {
+  position: absolute;
+  top: 1000px;
+  left: 47%;
+}
+
+main #teamOffice #teamcardDown #generalAffairsLogo {
+  position: absolute;
+  top: 1200px;
+  right: 320px;
+}
+
+main #teamOffice #teamcardDown #academicAffairs {
+  position: absolute;
+  bottom: 425px;
+  left: 9%;
+}
+
+main #teamOffice #teamcardDown #academicAffairsLogo {
+  position: absolute;
+  bottom: 250px;
+  left: 300px;
+}
+
+main #teamTeachers {
   width: 100%;
-  height: 1000PX;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-line-pack: justify;
-      align-content: space-between;
-  position: relative;
-}
-
-#news .newscardGroup {
-  width: 70%;
-  height: 50%;
-  /* background-color: crimson; */
-  position: absolute;
-  top: 10%;
-  left: 15%;
+  height: 700px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-#news .newscardGroup .newscard {
-  width: 40%;
-  /* background-color: darkkhaki; */
-  margin: 0 40px;
-  position: relative;
-  z-index: 2;
+main #teamTeachers .teamCards {
+  width: 33%;
+  height: 500px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-line-pack: justify;
-      align-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: c;
+      -ms-flex-pack: c;
+          justify-content: c;
 }
 
-#news .newscardGroup .newscard .newscardUp {
-  height: 50%;
+main #teamTeachers .teamCards .teamTeachersLogo {
+  margin: auto;
+  width: 50%;
 }
 
-#news .newscardGroup .newscard #prior {
-  position: absolute;
-  z-index: 2;
+main #teamTeachers .teamCards .swiper-container_2 {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#news .newscardGroup .newscard #tag {
+main #teamTeachers .teamCards .swiper-container_2 .swiper-slide {
+  /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  margin: 50px 0 0 0;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
-#news .newscardGroup .newscard .shadow {
-  width: 320px;
-  height: 200px;
-  background-color: grey;
-  position: absolute;
-  bottom: 45%;
-  left: -10%;
-  opacity: 0.7;
-  z-index: 1;
+main #teamTeachers .teamCards .swiper-container_2 .swiper-slide .teacherChange {
+  -webkit-clip-path: circle(50% at 50% 50%);
+          clip-path: circle(50% at 50% 50%);
+}
+
+main #teamTeachers .teamCards .swiper-pagination_2 {
+  left: 10px;
+}
+
+main #teamTeachers .middle {
+  margin: 0 10px;
+}
+
+.box {
+  width: 300px;
+  height: 100px;
+  background-color: green;
+}
+
+.boxa {
+  width: 100px;
+  height: 100px;
+  background-color: hotpink;
+  margin: auto;
 }
 /*# sourceMappingURL=quanpu.css.map */
